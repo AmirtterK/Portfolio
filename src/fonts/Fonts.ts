@@ -8,4 +8,4 @@ export const inter = localFont({
 export const avant = localFont({
   src: "avantgarde.woff2", 
   variable: "--font-myfont",   
-});
+}); 
