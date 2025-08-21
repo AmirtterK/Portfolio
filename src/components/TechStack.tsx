@@ -8,7 +8,7 @@ export function TechStack() {
   return (
     <section className="">
       <p
-        className={`${inter.className} text-xl font-light text-neutral-300 mb-5 tracking-widest text-left `}
+        className={`${inter.className} text-xl font-light text-foreground mb-5 tracking-widest text-left `}
       >
         Tech Stack
       </p>
@@ -23,7 +23,7 @@ export function TechStack() {
             >
               <IconComponent />
               <p
-                className={`${inter.className} ml-2 mr-1 text-sm text-neutral-300`}
+                className={`${inter.className} ml-2 mr-1 text-sm text-foreground/80 `}
               >
                 {tech}
               </p>

@@ -18,7 +18,7 @@ export function Introduction() {
         <div className="flex flex-col max-w-[320px] sm:max-x-full">
           <h1 className="title text-4xl sm:text-5xl">I&apos;m Amir</h1>
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            20yo Computer Science student from algeria{" "}
+            19yo Computer Science student from algeria{" "}
           </p>
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
             Full-Stack Web & Mobile Developer <br /> You ask, I deliver.{" "}
@@ -31,13 +31,13 @@ export function Introduction() {
               </Button>
             </a>
             <div className="flex gap-8">
-              <a   className="text-neutral-300 transition hover:text-neutral-100" href="https://www.linkedin.com/in/amir-hattab" target="_blank">
+              <a   className="text-foreground/90 transition hover:text-foreground" href="https://www.linkedin.com/in/amir-hattab" target="_blank">
                 <SiLinkedin size={20}/>
               </a>
-              <a className="text-neutral-300 transition hover:text-neutral-100" href="https://github.com/AmirtterK" target="_blank">
+              <a className="text-foreground/90 transition hover:text-foreground" href="https://github.com/AmirtterK" target="_blank">
                 <SiGithub size={20}/>
               </a>
-              <a className="text-neutral-300 transition hover:text-neutral-100" href="mailto:amirhattab2018@gmail.com">
+              <a className="text-foreground/90 transition hover:text-foreground" href="mailto:amirhattab2018@gmail.com">
                 <IoMdMail size={20} />
               </a>
             </div>

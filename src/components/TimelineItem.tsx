@@ -22,7 +22,6 @@ export default function TimelineItem({ experience }: Props) {
               src={logo}
               className="bg-background object-contain"
             />
-            <AvatarFallback>{name}</AvatarFallback>
           </Avatar>
         </Link>
       ) : (
@@ -32,14 +31,13 @@ export default function TimelineItem({ experience }: Props) {
               src={logo}
               className="bg-background object-contain "
             />
-            <AvatarFallback>{name}</AvatarFallback>
           </Avatar>
         </div>
       )}
 
       <div className="flex flex-1 flex-col justify-start gap-1">
         {start && (
-          <time className={`${inter.className}  text-xs text-gray-400`}>
+          <time className={`${inter.className}  text-xs text-foreground/50`}>
             <span>
               {start}
               {" - "}
@@ -48,13 +46,13 @@ export default function TimelineItem({ experience }: Props) {
           </time>
         )}
         <h2 className="font-semibold leading-none">{name}</h2>
-        {<p className={`${inter.className}  text-xs text-gray-400`}>{title}</p>}
+        {<p className={`${inter.className}  text-xs text-foreground/50`}>{title}</p>}
         {description && (
           <ul className=" list-outside ">
             {description.map((desc, id) => (
               <li
                 key={id}
-                className={`${inter.className}  text-xs text-gray-400`}
+                className={`${inter.className}  text-xs text-foreground/50`}
               >
                 {desc}
               </li>

@@ -9,16 +9,16 @@ const projects: Project[] = projectsData ;
 
 export function ProjectsLook() {
   return (
-    <section className="">
+    <section>
       <div className="flex items-center flex-row justify-between mb-5">
         <p
-          className={`${inter.className} text-xl font-light text-neutral-200 tracking-widest text-left `}
+          className={`${inter.className} text-xl font-light text-foreground tracking-widest text-left `}
         >
           Projects
         </p>
         <Link
           href={"projects"}
-          className={`${inter.className} text-l font-light text-neutral-500 items-center hover:text-neutral-300 transition`}
+          className={`${inter.className} text-l font-light text-muted-foreground items-center hover:text-foreground transition`}
         >
           {" "}
           View More

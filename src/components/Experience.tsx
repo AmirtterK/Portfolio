@@ -8,7 +8,7 @@ export function Experience() {
   return (
     <section>
       <p
-        className={`${inter.className} text-xl font-light text-neutral-300 mb-5 tracking-widest text-left `}
+        className={`${inter.className} text-xl font-light text-foreground mb-5 tracking-widest text-left `}
       >
         Experience
       </p>

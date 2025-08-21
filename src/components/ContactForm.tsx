@@ -46,8 +46,6 @@ export function ContactForm() {
     });
   }
   return (
-    <div className="flex grid gap-8">
-      <h1 className={`${inter.className} font-light text-neutral-200 text-5xl tracking-wide`}>Contact me</h1>
       <form
         onSubmit={handleSubmit}
         className="grid grid-cols-1 gap-2 sm:grid-cols-2"
@@ -87,6 +85,5 @@ export function ContactForm() {
           Send <VscSend />
         </Button>
       </form>
-    </div>
   );
 }
