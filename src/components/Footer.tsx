@@ -1,7 +1,7 @@
 "use client";
 
 import { IoMdMail } from "react-icons/io";
-import { SiGithub, SiLinkedin, SiMailboxdotorg } from "react-icons/si";
+import { SiGithub, SiLinkedin} from "react-icons/si";
 
 export function Footer() {
   return (

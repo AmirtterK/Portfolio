@@ -16,7 +16,7 @@ export function Introduction() {
           height={0}
         ></Image>
         <div className="flex flex-col max-w-[320px] sm:max-x-full">
-          <h1 className="title text-4xl sm:text-5xl">I'm Amir</h1>
+          <h1 className="title text-4xl sm:text-5xl">I&apos;m Amir</h1>
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
             20yo Computer Science student from algeria{" "}
           </p>

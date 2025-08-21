@@ -11,7 +11,6 @@ export default function ThemeButton() {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
   if (!mounted) {
-    // Render a placeholder to match server output (no mismatch)
     return null;
   }
 
