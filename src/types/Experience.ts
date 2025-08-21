@@ -1,6 +1,6 @@
 export interface Experience {
   name: string;
-  href: string;
+  href?: string;
   title?: string;
   logo: string;
   start: string;

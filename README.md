@@ -4,7 +4,7 @@ A clean, minimal portfolio website built with Next.js, Tailwind CSS, and Shadcn 
 
 ## Live Demo
 
-🌐 Check it out here: **[https://vercel.com](https://vercel.com)**
+🌐 Check it out here: **[https://amirhattab.vercel.app](https://amirhattab.vercel.app)**
 
 ![Portfolio Screenshot](public/portfolio.png)
 

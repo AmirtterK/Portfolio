@@ -21,7 +21,7 @@ export function Footer() {
         <div className="mt-8 text-center sm:mt-0 sm:text-left">
           <p className="text-xs text-neutral-300 tracking-wider">
             © 2025 
-            <a className="text-neutral-300 transition hover:text-neutral-100" href="vercel.com"> vercel.com</a>
+            <a className="text-neutral-300 transition hover:text-neutral-100" href="https://amirhattab.vercel.app"> amirhattab.vercel.app</a>
           </p>
         </div>
       </div>
