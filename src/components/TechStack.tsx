@@ -1,5 +1,5 @@
 "use client";
-import { inter } from "../fonts/Fonts";
+import { inter } from "./Fonts";
 import { Badge } from "@/components/ui/badge";
 import tech from "@/data/techStack.json" assert { type: "json" };
 import { IconsMap } from "./Icons";

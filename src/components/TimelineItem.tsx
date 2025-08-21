@@ -3,7 +3,7 @@
 import { Experience } from "@/types/Experience";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { inter } from "../fonts/Fonts";
+import { inter } from "./Fonts";
 interface Props {
   experience: Experience;
 }

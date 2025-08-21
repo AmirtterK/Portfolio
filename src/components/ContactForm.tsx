@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 
 import { toast } from "sonner";
-import { inter } from "../fonts/Fonts";
+import { inter } from "./Fonts";
 
 export function ContactForm() {
   const [loading, setLoading] = useState(false);

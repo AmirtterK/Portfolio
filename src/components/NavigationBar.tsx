@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import ThemeButton from "./ThemeButton";
-import { inter } from "../fonts/Fonts";
+import { inter } from "./Fonts";
 
 export function NavigationBar() {
   return (

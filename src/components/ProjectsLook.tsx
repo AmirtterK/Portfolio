@@ -1,5 +1,5 @@
 "use client";
-import { inter } from "../fonts/Fonts";
+import { inter } from "./Fonts";
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";
 import projectsData  from "@/data/projects.json" assert { type: "json" };
