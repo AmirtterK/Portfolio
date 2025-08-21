@@ -2,11 +2,11 @@ import localFont from "next/font/local";
 import path from "path";
 
 export const inter = localFont({
-  src: [{path:"../../public/fonts/interVariable.woff2"}],
-  variable: "--font-myfont",   
+  src: [{ path: "../../public/fonts/interVariable.woff2" }],
+  variable: "--font-inter",
 });
 
 export const avant = localFont({
-  src:[{path:"../../public/fonts/avantgarde.woff2"}],
-  variable: "--font-myfont",   
+  src: [{ path: "../../public/fonts/avantgarde.woff2" }],
+  variable: "--font-avant",
 });
