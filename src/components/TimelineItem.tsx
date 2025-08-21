@@ -20,7 +20,6 @@ export default function TimelineItem({ experience }: Props) {
           <Avatar className="size-12 border">
             <AvatarImage
               src={logo}
-              alt={name}
               className="bg-background object-contain"
             />
             <AvatarFallback>{name}</AvatarFallback>
@@ -31,7 +30,6 @@ export default function TimelineItem({ experience }: Props) {
           <Avatar className="size-12 border">
             <AvatarImage
               src={logo}
-              alt={name}
               className="bg-background object-contain "
             />
             <AvatarFallback>{name}</AvatarFallback>
