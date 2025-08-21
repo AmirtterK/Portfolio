@@ -13,7 +13,7 @@ export function Introduction() {
           src={"/personal-picture.jpg"}
           alt={""}
           width={175}
-          height={175}
+          height={0}
         ></Image>
         <div className="flex flex-col max-w-[320px] sm:max-x-full">
           <h1 className="title text-4xl sm:text-5xl">I'm Amir</h1>

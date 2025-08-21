@@ -6,6 +6,7 @@ import "./globals.css";
 import { NavigationBar } from "@/components/NavigationBar";
 import { Footer } from "@/components/Footer";
 import { Toaster } from "sonner";
+import localFont from "next/font/local";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -14,6 +15,11 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+export const inter = localFont({
+  src: "../../public/fonts/interVariable.woff2", 
+  variable: "--font-myfont",   
 });
 
 export const metadata: Metadata = {
@@ -33,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-3xl mx-auto px-8`}
+        className={`${inter.className}  antialiased max-w-3xl mx-auto px-8`}
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
           <NavigationBar />

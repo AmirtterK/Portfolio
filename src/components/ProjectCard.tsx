@@ -43,7 +43,7 @@ export default function ProjectCard({ project }: Props) {
           src={image}
           alt={""}
           width={800}
-          height={200}
+          height={800}
           className="w-full h-full object-cover rounded-lg cursor-pointer  "
         />
       </CardHeader>

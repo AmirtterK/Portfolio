@@ -3,7 +3,9 @@ import tailwindcss from 'tailwindcss'
 export default {
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 }

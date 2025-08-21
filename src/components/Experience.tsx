@@ -1,6 +1,6 @@
 "use client";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { inter } from "../../public/fonts/Fonts";
+import { avant, inter } from "./Fonts";
 import work from "@/data/work.json"
 import education from "@/data/education.json"
 import Timeline from "./Timeline";
@@ -8,7 +8,7 @@ export function Experience() {
   return (
     <section>
       <p
-        className={`${inter.className} text-xl font-light text-neutral-200 mb-5 tracking-widest text-left `}
+        className={`${inter.className} text-xl font-light text-neutral-300 mb-5 tracking-widest text-left `}
       >
         Experience
       </p>

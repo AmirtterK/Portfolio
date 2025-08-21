@@ -1,5 +1,5 @@
 "use client";
-import { inter } from "../../public/fonts/Fonts";
+import { inter } from "./Fonts";
 import { Badge } from "@/components/ui/badge";
 import tech from "@/data/techStack.json" assert { type: "json" };
 import { IconsMap } from "./Icons";
@@ -8,7 +8,7 @@ export function TechStack() {
   return (
     <section className="">
       <p
-        className={`${inter.className} text-xl font-light text-neutral-200 mb-5 tracking-widest text-left `}
+        className={`${inter.className} text-xl font-light text-neutral-300 mb-5 tracking-widest text-left `}
       >
         Tech Stack
       </p>
