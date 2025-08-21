@@ -1,0 +1,22 @@
+"use client";
+
+import { Card, CardContent } from "./ui/card";
+import TimelineItem from "./TimelineItem";
+import { Experience } from "@/types/Experience";
+
+interface Props {
+  experience: Experience[];
+}
+export default function Timeline({ experience }: Props) {
+  return (
+    <Card className="bg-background p-0">
+      <CardContent className="p-0">
+        <ul className="ml-10 border-l">
+          {experience.map((exp, id) => (
+            <TimelineItem key={id} experience={exp} />
+          ))}
+        </ul>
+      </CardContent>
+    </Card>
+  );
+}

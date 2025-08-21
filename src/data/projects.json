@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Ferrari Website",
+    "description": "A Ferrari-themed showcase website with animations and 3D models.",
+    "github": "https://github.com/AmirtterK/Ferrari-website",
+    "live": "https://amirtterk.github.io/Ferrari-website/",
+    "image": "/projects/ferrari-site.jpg",
+    "tech": ["JavaScript", "ThreeJS"]
+  },
+  {
+    "title": "Chat App",
+    "description": "Cross-platform chat application with real-time messaging and push notifications powered by a custom Express.JS server.",
+    "github": "https://github.com/AmirtterK/Chat-App",
+    "android": "https://drive.google.com/file/d/1_TMf8mqqjPz21zwjuJaLINsSwq_TCR89/view?usp=drive_link",
+    "image": "/projects/chat-app.jpg",
+    "tech": ["Flutter", "Express", "Firebase"]
+  },
+  {
+    "title": "Dealership Site",
+    "description": "A simple PHP & MySQL site for a luxury cars dealership.",
+    "github": "https://github.com/AmirtterK/Dealership",
+    "image": "/projects/dealership-site.jpg",
+    "tech": ["PHP", "MySQL"]
+  },
+  {
+    "title": "Chess Game",
+    "description": "2-player chess game.",
+    "github": "https://github.com/AmirtterK/Chess",
+    "android": "https://drive.google.com/file/d/1_g8mTnZULXaStix40QglsFaYacPxqfdt/view?usp=drive_link",
+    "image": "/projects/chess-game.jpg",
+    "tech": ["Flutter"]
+  },
+  {
+    "title": "Todo App",
+    "description": "Task management app with notifications and pomodoro.",
+    "github": "https://github.com/AmirtterK/To-Do-List",
+    "android": "https://drive.google.com/file/d/1etVY5hdxeBEDOiwfmnc-U0HFxL1DrdKr/view?usp=drive_link",
+    "image": "/projects/todo-app.jpg",
+    "tech": ["Flutter", "SQLite"]
+  },
+  {
+    "title": "Weather App",
+    "description": "Weather forecast app using OpenWeather API.",
+    "github": "https://github.com/AmirtterK/Weather-App",
+    "android": "https://drive.google.com/file/d/1hZTo0olxkTh_0VihwqgLmAdYTmafL58G/view?usp=drive_link",
+    "image": "/projects/weather-app.jpg",
+    "tech": ["Flutter", "OpenWeater API"]
+  },
+  {
+    "title": "Portfolio",
+    "description": "A simple portfolio to showcase my work as a developer.",
+    "github": "https://github.com/AmirtterK/Ferrari-website",
+    "live": "https://amirtterk.github.io/Ferrari-website/",
+    "image": "/projects/weather-app.jpg",
+    "tech": ["NextJS","Tailwind"]
+  },
+  {
+    "title": "Arduino Tank",
+    "description": "Arduino Nano-Powered Tank with App Controller.",
+    "githubApp": "https://github.com/AmirtterK/Tank-Controller",
+    "githubSketch": "https://github.com/AmirtterK/Arduino-Tank",
+    "android": "https://drive.google.com/file/d/1t9EPYVmTnX3foR36FN8HxjDHvNkey5zx/view?usp=drive_link",
+    "image": "/projects/tank.jpg",
+    "tech": ["Flutter", "Arduino"]
+  }
+]
