@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.className}  antialiased max-w-3xl mx-auto px-8`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-3xl mx-auto px-8`}
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
           <NavigationBar />
