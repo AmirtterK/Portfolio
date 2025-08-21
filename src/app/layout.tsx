@@ -17,10 +17,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const inter = localFont({
-  src: "../../public/fonts/interVariable.woff2", 
-  variable: "--font-myfont",   
-});
+
 
 export const metadata: Metadata = {
   title: "Amir Podium",

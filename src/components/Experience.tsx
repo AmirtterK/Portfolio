@@ -1,6 +1,6 @@
 "use client";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { avant, inter } from "../../public/fonts/Fonts";
+import { avant, inter } from "../fonts/Fonts";
 import work from "@/data/work.json"
 import education from "@/data/education.json"
 import Timeline from "./Timeline";
