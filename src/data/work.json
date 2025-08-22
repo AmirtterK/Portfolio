@@ -1,10 +1,16 @@
 [
   {
+    "name": "Phi scientific club",
+    "title":"Leader of technical committee",
+    "logo": "/work/phi.png",
+    "start": "Sep 2024",
+    "end": ""
+  },
+  {
     "name": "Freelance",
     "title":"Mobile & Web Development",
     "logo": "/work/freelance.png",
     "start": "Aug 2025",
     "end": ""
-    
   }
 ]

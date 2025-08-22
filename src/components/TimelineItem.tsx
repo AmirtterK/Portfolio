@@ -17,7 +17,7 @@ export default function TimelineItem({ experience }: Props) {
           target="_blank"
           className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white"
         >
-          <Avatar className="size-12 border">
+          <Avatar className="size-12 ">
             <AvatarImage
               src={logo}
               className="bg-background object-contain"
@@ -26,7 +26,7 @@ export default function TimelineItem({ experience }: Props) {
         </Link>
       ) : (
         <div className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white">
-          <Avatar className="size-12 border">
+          <Avatar className="size-12 ">
             <AvatarImage
               src={logo}
               className="bg-background object-contain "
