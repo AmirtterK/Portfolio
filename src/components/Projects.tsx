@@ -8,7 +8,6 @@ const projects: Project[] = projectsData;
 
 export default function Projects() {
   return (
-      
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 pb-16">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />

@@ -16,6 +16,14 @@
     "tech": ["Flutter", "Express", "Firebase"]
   },
   {
+    "title": "E-commerce Site",
+    "description": "A full-stack e-commerce platform built with Next.js 14, TypeScript, MongoDB Atlas, and Clerk authentication, featuring shopping cart management and Google OAuth integration.",
+    "github": "https://github.com/AmirtterK/e-commerce",
+    "live": "https://handla-ecommerce.vercel.app/",
+    "image": "/projects/e-commerce.png",
+    "tech": ["nextjs", "typescript", "mongoDB", "shadcn"]
+  },
+  {
     "title": "Dealership Site",
     "description": "A simple PHP & MySQL site for a luxury cars dealership.",
     "github": "https://github.com/AmirtterK/Dealership",

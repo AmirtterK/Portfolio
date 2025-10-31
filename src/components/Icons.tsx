@@ -18,6 +18,7 @@ import {
   SiVite,
   SiGit,
   SiNextdotjs,
+  SiMongodb,
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 
@@ -40,4 +41,5 @@ export const IconsMap: Record<string,  IconType> = {
   vite: SiVite ,
   c: SiC ,
   git: SiGit ,
+  mongoDB: SiMongodb ,
 };
