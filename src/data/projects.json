@@ -3,6 +3,7 @@
     "title": "Ferrari Website",
     "description": "A Ferrari-themed showcase website with animations and 3D models, built exclusively for desktop.",
     "github": "https://github.com/AmirtterK/Ferrari-website",
+    "live": "https://amirtterk.github.io/Ferrari-website/",
     "image": "/projects/ferrari-site.jpg",
     "tech": ["JavaScript", "ThreeJS"]
   },
