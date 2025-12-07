@@ -19,7 +19,10 @@ import {
   SiGit,
   SiNextdotjs,
   SiMongodb,
+  SiPython,
+  
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa6";
 import { IoLogoFirebase } from "react-icons/io5";
 
 export const IconsMap: Record<string,  IconType> = {
@@ -42,4 +45,6 @@ export const IconsMap: Record<string,  IconType> = {
   c: SiC ,
   git: SiGit ,
   mongoDB: SiMongodb ,
+  python: SiPython,
+  java : FaJava
 };
