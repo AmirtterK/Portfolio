@@ -59,7 +59,7 @@
     "description": "Arduino Nano-Powered Tank with App Controller.",
     "githubApp": "https://github.com/AmirtterK/Tank-Controller",
     "githubSketch": "https://github.com/AmirtterK/Arduino-Tank",
-    "android": "https://drive.google.com/file/d/1t9EPYVmTnX3foR36FN8HxjDHvNkey5zx/view?usp=drive_link",
+    "android": "https://drive.google.com/file/d/1EzOSKkLFfC0t5ChdJVjZDTRIADw0FJTj/view?usp=drive_link",
     "image": "/projects/tank.jpg",
     "tech": ["Flutter", "Arduino"]
   }
