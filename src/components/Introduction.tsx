@@ -18,7 +18,7 @@ export function Introduction() {
         <div className="flex flex-col max-w-[320px] sm:max-x-full">
           <h1 className="title text-4xl sm:text-5xl">I&apos;m Amir</h1>
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            19yo Computer Science student from algeria{" "}
+            20yo Computer Science student from algeria{" "}
           </p>
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
             Full-Stack Web & Mobile Developer <br /> You ask, I deliver.{" "}
