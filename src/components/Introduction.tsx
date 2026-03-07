@@ -11,7 +11,7 @@ export function Introduction() {
         <Image
           className="rounded-lg"
           src={"/personal-picture.jpg"}
-          alt={""}
+          alt={"Photo of Amir"}
           width={175}
           height={0}
         ></Image>
@@ -24,7 +24,7 @@ export function Introduction() {
             Full-Stack Web & Mobile Developer <br /> You ask, I deliver.{" "}
           </p>
           <div className="flex flex-row items-center mt-10 gap-6 ">
-            <a href="" target="_blank">
+            <a href="/resume.pdf" target="_blank">
               <Button className="flex gap-3 cursor-pointer">
                 <span>Resume</span>
                 <LuFileDown />

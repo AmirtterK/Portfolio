@@ -39,8 +39,8 @@ export default function RootLayout({
           <NavigationBar />
           <main className=" py-6 ">
             {children}
-            <Analytics />
           </main>
+          <Analytics />
           <Toaster />
         </ThemeProvider>
         <Footer />

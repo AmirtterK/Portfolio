@@ -1,6 +1,3 @@
-module.exports = {
-  plugins: {
-    '@tailwindcss/postcss': {},
-    autoprefixer: {},
-  },
-}
+// This file is intentionally left empty.
+// PostCSS config is handled by postcss.config.mjs
+

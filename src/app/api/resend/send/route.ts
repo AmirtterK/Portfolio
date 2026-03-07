@@ -32,6 +32,9 @@ export async function POST(req: Request) {
       );
     }
 
+    const escapeHtml = (str: string) =>
+      str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
     const data = await resend.emails.send({
       from: "Portfolio <onboarding@resend.dev>",
       to: ["strikereureka7661@gmail.com"],
@@ -39,10 +42,10 @@ export async function POST(req: Request) {
       replyTo: body.email,
       html: `
         <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${body.name}</p>
-        <p><strong>Email:</strong> ${body.email}</p>
+        <p><strong>Name:</strong> ${escapeHtml(body.name)}</p>
+        <p><strong>Email:</strong> ${escapeHtml(body.email)}</p>
         <p><strong>Message:</strong></p>
-        <p>${body.message}</p>
+        <p>${escapeHtml(body.message)}</p>
         `,
     });
 

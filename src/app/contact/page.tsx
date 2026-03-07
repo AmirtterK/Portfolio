@@ -1,7 +1,7 @@
 import { ContactForm } from "@/components/ContactForm";
 import { inter } from "@/components/Fonts";
 
-export default function Home() {
+export default function ContactPage() {
   return (
     <div className="flex grid gap-8">
       <h1

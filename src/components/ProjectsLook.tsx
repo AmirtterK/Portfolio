@@ -2,7 +2,7 @@
 import { inter } from "./Fonts";
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";
-import projectsData  from "@/data/projects.json" assert { type: "json" };
+import projectsData from "@/data/projects.json";
 import { Project } from "@/types/Project";
 const projects: Project[] = projectsData ;
 

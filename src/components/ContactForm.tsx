@@ -37,13 +37,15 @@ export function ContactForm() {
       hour12: true,
     }).format(now);
 
-    toast("Message sent successfully!", {
-      description: time,
-      action: {
-        label: "Undo",
-        onClick: () => console.log("Undo"),
-      },
-    });
+    if (res.ok) {
+      toast("Message sent successfully!", {
+        description: time,
+      });
+    } else {
+      toast("Failed to send message.", {
+        description: "Please try again later.",
+      });
+    }
   }
   return (
       <form

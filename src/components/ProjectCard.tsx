@@ -20,7 +20,7 @@ interface Props {
   project: Project;
 }
 export default function ProjectCard({ project }: Props) {
-  const [isModelOpen, OpenModel] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const {
     title,
     description,
@@ -37,7 +37,7 @@ export default function ProjectCard({ project }: Props) {
     <Card className="w-full max-w-ms gap-4 bg-background">
       <CardHeader
         className="relative rounded-lg overflow-hidden h-50 px-5 aspect-[4/3]  flex items-center justify-center "
-        onClick={() => OpenModel(true)}
+        onClick={() => setIsModalOpen(true)}
       >
         <Image
           src={image}
@@ -101,16 +101,16 @@ export default function ProjectCard({ project }: Props) {
           </Link>
         )}
       </CardFooter>
-      {isModelOpen && (
+      {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-8">
           <div
             className="absolute inset-0 bg-opacity-90 backdrop-blur-sm "
-            onClick={() => OpenModel(false)}
+            onClick={() => setIsModalOpen(false)}
           />
 
           <div className="relative z-10 ">
             <button
-              onClick={() => OpenModel(false)}
+              onClick={() => setIsModalOpen(false)}
               className="absolute top-2 right-2 z-20 p-2 rounded-full bg-opacity-100 text-white hover:bg-opacity-70 cursor-pointer "
             >
               <X className="w-6 h-6" />
@@ -118,7 +118,7 @@ export default function ProjectCard({ project }: Props) {
 
             <Image
               src={image}
-              alt="Chess project - expanded"
+              alt={`${title} - expanded`}
               width={850}
               height={200}
               className="max-w-full max-h-full object-contain rounded-lg shadow-2xl "
