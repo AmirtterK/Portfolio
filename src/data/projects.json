@@ -11,7 +11,7 @@
     "title": "Chat App",
     "description": "Cross-platform chat application with real-time messaging and push notifications powered by a custom Express.JS server.",
     "github": "https://github.com/AmirtterK/Chat-App",
-    "android": "https://drive.google.com/file/d/1_TMf8mqqjPz21zwjuJaLINsSwq_TCR89/view?usp=drive_link",
+    "android": "https://github.com/AmirtterK/Chat-App/releases/download/v1.0.0/Bubble.apk",
     "image": "/projects/chat-app.jpg",
     "tech": ["Flutter", "Express", "Firebase"]
   },
@@ -42,7 +42,7 @@
     "title": "Todo App",
     "description": "Task management app with notifications and pomodoro.",
     "github": "https://github.com/AmirtterK/To-Do-List",
-    "android": "https://drive.google.com/file/d/1etVY5hdxeBEDOiwfmnc-U0HFxL1DrdKr/view?usp=drive_link",
+    "android": "https://github.com/AmirtterK/To-Do-List/releases/download/v1.0.0/Swift-list.apk",
     "image": "/projects/todo-app.jpg",
     "tech": ["Flutter", "SQLite"]
   },
@@ -50,7 +50,7 @@
     "title": "Weather App",
     "description": "Weather forecast app using OpenWeather API.",
     "github": "https://github.com/AmirtterK/Weather-App",
-    "android": "https://drive.google.com/file/d/1hZTo0olxkTh_0VihwqgLmAdYTmafL58G/view?usp=drive_link",
+    "android": "https://github.com/AmirtterK/Weather-App/releases/download/v1.0.0/Cloud-flow.apk",
     "image": "/projects/weather-app.jpg",
     "tech": ["Flutter", "OpenWeater API"]
   },
@@ -59,7 +59,7 @@
     "description": "Arduino Nano-Powered Tank with App Controller.",
     "githubApp": "https://github.com/AmirtterK/Tank-Controller",
     "githubSketch": "https://github.com/AmirtterK/Arduino-Tank",
-    "android": "https://drive.google.com/file/d/1EzOSKkLFfC0t5ChdJVjZDTRIADw0FJTj/view?usp=drive_link",
+    "android": "https://github.com/AmirtterK/Tank-Controller/releases/download/v1.0.0/williams.apk",
     "image": "/projects/tank.jpg",
     "tech": ["Flutter", "Arduino"]
   }
