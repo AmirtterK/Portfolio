@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 
 export const inter = localFont({
-  src: "../../public/fonts/interVariable.woff2", 
+  src: "../../public/fonts/InterVariable.woff2", 
   variable: "--font-myfont",   
 });
 
