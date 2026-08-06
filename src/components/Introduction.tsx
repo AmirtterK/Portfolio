@@ -1,8 +1,8 @@
 "use client";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { IoMdMail } from "react-icons/io";
-import { LuFileDown } from "react-icons/lu";
+// import { LuFileDown } from "react-icons/lu";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
 export function Introduction() {
@@ -24,12 +24,14 @@ export function Introduction() {
             Full-Stack Web & Mobile Developer <br /> You ask, I deliver.{" "}
           </p>
           <div className="flex flex-row items-center mt-10 gap-6 ">
+            {/*
             <a href="/resume.pdf" target="_blank">
               <Button className="flex gap-3 cursor-pointer">
                 <span>Resume</span>
                 <LuFileDown />
               </Button>
             </a>
+            */}
             <div className="flex gap-8">
               <a   className="text-foreground/90 transition hover:text-foreground" href="https://www.linkedin.com/in/amir-hattab" target="_blank">
                 <SiLinkedin size={20}/>

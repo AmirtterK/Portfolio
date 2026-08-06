@@ -32,7 +32,7 @@
   },
   {
     "title": "Chess Game",
-    "description": "2p and ai chess game.",
+    "description": "A two-player chess game with an AI mode.",
     "github": "https://github.com/AmirtterK/Chess",
     "android": "https://github.com/AmirtterK/Chess/releases/download/v1.0.0/chess-ritter.apk",
     "image": "/projects/chess-game.jpg",
