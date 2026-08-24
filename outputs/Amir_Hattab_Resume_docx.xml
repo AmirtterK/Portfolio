@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume source="Amir_Hattab_Resume.docx">
+  <contact>
+    <name>Amir Hattab</name>
+    <location>Mostaganem, Algeria</location>
+    <email>amirhattab2018@gmail.com</email>
+    <phone>0655206259</phone>
+    <website>amirhattab.vercel.app</website>
+    <github>github.com/AmirtterK</github>
+  </contact>
+  <summary>Full-stack developer building mobile and web applications. Founder of Krii, a peer-to-peer rental marketplace for Algeria, and an AI-focused Master's student with a strong foundation in software architecture and real-time systems.</summary>
+  <experience>
+    <role company="Krii" title="Founder &amp; Full-Stack Developer" dates="Nov 2025 - present">
+      <achievement>Built and deployed a production peer-to-peer rental marketplace with mobile, web, and backend infrastructure.</achievement>
+      <achievement>Led end-to-end product development across the customer app, admin moderation dashboard, and backend systems.</achievement>
+      <achievement>Implemented payment processing, real-time notifications, and a multi-tenant database architecture.</achievement>
+    </role>
+    <role company="Mobile App Development Workshop" title="Flutter Workshop Instructor">
+      <achievement>Taught practical Flutter mobile app development, guiding participants through app structure and implementation.</achievement>
+    </role>
+  </experience>
+  <projects>
+    <project name="Krii"><description>Peer-to-peer rental marketplace for the Algerian market.</description><achievement>Built the mobile app, admin dashboard, and backend platform with payments and real-time notifications.</achievement></project>
+    <project name="Chat App" technologies="Flutter, Express, Firebase" repository="github.com/AmirtterK/Chat-App"><description>Cross-platform messaging application with real-time synchronization, push notifications, and a custom backend.</description></project>
+    <project name="E-commerce Platform" technologies="Next.js, TypeScript, MongoDB, Clerk" repository="github.com/AmirtterK/e-commerce"><description>Full-stack e-commerce system with cart, order management, and OAuth authentication.</description></project>
+    <project name="Chess Game" technologies="Flutter" repository="github.com/AmirtterK/Chess"><description>Two-player chess game with AI opponent and move validation.</description></project>
+    <project name="Ferrari Website" technologies="JavaScript, Three.js" repository="github.com/AmirtterK/Ferrari-website"><description>Interactive 3D showcase website with animations and immersive design.</description></project>
+  </projects>
+  <education>
+    <degree institution="University of Mostaganem, Faculty of Exact Sciences and Computer Science" title="Bachelor in Computer Science" location="Mostaganem, Algeria" dates="Sep 2023 - Jun 2026">
+      <achievement>Ranked 2nd in my Bachelor's graduating class.</achievement>
+      <achievement>Awarded Best Startup Graduation Project with 19.75/20.</achievement>
+    </degree>
+  </education>
+  <skills>
+    <category name="Languages">JavaScript, TypeScript, Python, Java, C, PHP, Dart</category>
+    <category name="Frameworks">Next.js, React, Flutter, Express, Vite, TailwindCSS, Shadcn, Three.js</category>
+    <category name="Databases">PostgreSQL, MySQL, SQLite, Firebase, MongoDB</category>
+    <category name="Platform">Git, Arduino, Clerk</category>
+  </skills>
+  <spokenLanguages>
+    <language name="English" proficiency="Fluent" />
+    <language name="Arabic" proficiency="Fluent" />
+    <language name="German" proficiency="Beginner" />
+    <language name="French" proficiency="Beginner" />
+  </spokenLanguages>
+</resume>
