@@ -2,17 +2,13 @@
   {
     "name": "Faculty of Exact Sciences and Computer Science",
     "href": "https://www.univ-mosta.dz/fsei/",
-    "title": "Bachelor in Computer Science",
-    "logo": "/education/fsei.png",
-    "start": "Sep 2023",
-    "end": "Jun 2026"
-  },
-  {
-    "name": "Faculty of Exact Sciences and Computer Science",
-    "href": "https://www.univ-mosta.dz/fsei/",
     "title": "Master's in Artificial Intelligence",
     "logo": "/education/fsei.png",
-    "start": "Sep 2026",
-    "end": ""
+    "start": "Sep 2023",
+    "end": "",
+    "description": [
+      "Bachelor in Computer Science (Graduated)",
+      "Master's in Artificial Intelligence (Current)"
+    ]
   }
 ]
