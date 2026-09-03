@@ -1,11 +1,5 @@
 [
-  {
-    "title": "Shakespeare Says",
-    "description": "A text generator that produces a random Shakespearean-style line. built on a GPT-2 model tuned on Shakespeare's works and run fully locally via a quantized ONNX model.",
-    "github": "https://github.com/AmirtterK/shakespear-says",
-    "image": "/projects/shakespeare-says.jpg",
-    "tech": ["Next.js", "TypeScript", "GPT-2 / ONNX"]
-  },
+  
   {
     "title": "Krii",
     "description": "An AI-powered peer-to-peer rental platform featuring Google Gemini semantic search, AI vector embeddings, and an intelligent multilingual assistant.",
@@ -21,6 +15,12 @@
     "android": "https://github.com/AmirtterK/Chess/releases/download/v1.0.0/chess-ritter.apk",
     "image": "/projects/chess-game.jpg",
     "tech": ["Flutter", "AI / Minimax", "Dart"]
+  },{
+    "title": "Shakespeare Says",
+    "description": "A text generator that produces Shakespearean-style line. built on a GPT-2 model tuned on Shakespeare's works and run fully locally via a quantized ONNX model.",
+    "github": "https://github.com/AmirtterK/shakespear-says",
+    "image": "/projects/shakespeare-says.jpg",
+    "tech": ["Next.js", "TypeScript", "GPT-2 / ONNX"]
   },
   {
     "title": "Ferrari Website",
