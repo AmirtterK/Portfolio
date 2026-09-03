@@ -1,5 +1,12 @@
 [
   {
+    "title": "Shakespeare Says",
+    "description": "An offline text generator that produces a random Shakespearean-style line at the press of a button, powered by a GPT-2 model fine-tuned on Shakespeare's works and run fully locally via a quantized ONNX model — no external API calls.",
+    "github": "https://github.com/AmirtterK/shakespear-says",
+    "image": "/projects/shakespeare-says.jpg",
+    "tech": ["Next.js", "TypeScript", "Transformers.js", "GPT-2 / ONNX"]
+  },
+  {
     "title": "Krii",
     "description": "An AI-powered peer-to-peer rental platform featuring Google Gemini semantic search, AI vector embeddings, and an intelligent multilingual assistant.",
     "live": "https://krii-website.vercel.app",
