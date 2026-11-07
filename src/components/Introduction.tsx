@@ -18,10 +18,10 @@ export function Introduction() {
         <div className="flex flex-col max-w-[320px] sm:max-x-full">
           <h1 className="title text-4xl sm:text-5xl">I&apos;m Amir</h1>
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            20yo Computer Science student from algeria{" "}
+            Software Developer
           </p>
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
-            Full-Stack Web & Mobile Developer <br /> You ask, I deliver.{" "}
+            I build and ship AI-powered products. <br /> What limits creation, if not the boundaries of vision itself?
           </p>
           <div className="flex flex-row items-center mt-10 gap-6 ">
             <a href="/Amir_Hattab_Resume.pdf" target="_blank">
