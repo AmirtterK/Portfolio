@@ -8,12 +8,20 @@
     "tech": ["Flutter", "Supabase", "Gemini API", "Next.js"]
   },
   {
-    "title": "Chess Game",
+    "title": "Chess Ritter",
     "description": "A cross-platform Flutter chess application powered by a custom built-in AI engine utilizing Minimax search with Alpha-Beta pruning, positional heuristics, opening book evaluation, and adaptive Elo difficulty levels.",
-    "github": "https://github.com/AmirtterK/Chess",
-    "android": "https://github.com/AmirtterK/Chess/releases/download/v1.0.0/chess-ritter.apk",
+    "github": "https://github.com/AmirtterK/chess-ritter",
+    "android": "https://github.com/AmirtterK/chess-ritter/releases/download/v1.0.0/chess-ritter.apk",
     "image": "/projects/chess-game.jpg",
     "tech": ["Flutter", "AI / Minimax", "Dart"]
+  },
+  {
+    "title": "Neural Flows",
+    "description": "An interactive 3D neural network visualizer built with Three.js that runs a trained MLP in the browser, animating forward propagation as you draw letters.",
+    "github": "https://github.com/AmirtterK/neural-flows",
+    "live": "https://neural-flows.vercel.app/",
+    "image": "/projects/neural-flows.png",
+    "tech": ["Next.js", "Three.js", "TypeScript"]
   },
   {
     "title": "Shakespeare Says",
