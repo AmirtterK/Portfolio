@@ -17,7 +17,7 @@
   },
   {
     "title": "Neural Flows",
-    "description": "An interactive 3D neural network visualizer built with Three.js that runs a trained MLP in the browser, animating forward propagation as you draw letters.",
+    "description": "An interactive 3D neural network visualizer built with Three.js that runs a trained MLP client-side, rendering real-time forward propagation and synapse activations for hand-drawn letter input.",
     "github": "https://github.com/AmirtterK/neural-flows",
     "live": "https://neural-flows.vercel.app/",
     "image": "/projects/neural-flows.png",
